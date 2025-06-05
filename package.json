@@ -1,0 +1,16 @@
+{
+  "name": "york-dental-theme",
+  "version": "1.0.0",
+  "description": "A custom WordPress theme built for **The York Dental Suite** as part of a Full Stack Developer technical challenge.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass assets/scss/main.scss assets/css/main.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.89.1"
+  }
+}
