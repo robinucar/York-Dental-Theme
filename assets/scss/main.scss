@@ -1,1 +1,15 @@
-@import "header";
+
+@use "header";
+@use "sronly";
+@use "hero";
+@use "section-2";
+@use "consultation-form";
+@use "footer";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}

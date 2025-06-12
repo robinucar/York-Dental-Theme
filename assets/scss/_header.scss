@@ -30,14 +30,13 @@
   margin: 0 auto;
 }
 
-/* Header right section */
+
 .header-right {
   display: flex;
   align-items: center;
   gap: 30px;
 }
 
-/* BOOK NOW button */
 .book-button {
   background: linear-gradient(180deg, #E3A68A 0%, #B37A5F 100%);
   color: var(--Background-White, #FFF);
@@ -103,7 +102,7 @@ a:focus {
   max-width: 100%;
 }
 
-/* Tablet styles */
+
 @media (max-width: 1024px) and (min-width: 769px) {
   .header-container {
     padding: 0 40px;
@@ -127,7 +126,7 @@ a:focus {
   }
 }
 
-/* Mobile styles */
+
 @media (max-width: 768px) {
   .site-header {
     display: flex;

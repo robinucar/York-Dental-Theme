@@ -5,7 +5,7 @@ A custom WordPress theme built for **The York Dental Suite** as part of a Full S
 ## 🛠 Tech Stack
 
 - PHP (WordPress Theme Development)
-- HTML5 / CSS3
+- HTML5 / SCSS
 - Custom theme (from scratch)
 - LocalWP (local WordPress environment)
 - Git & GitHub for version control
@@ -13,7 +13,7 @@ A custom WordPress theme built for **The York Dental Suite** as part of a Full S
 ## ✅ Features (WIP)
 
 - [x] Custom theme initialization
-- [ ] Responsive header
+- [x] Responsive header
 - [ ] Hero section
 - [ ] Footer with social icons
 - [ ] Form section
@@ -33,6 +33,23 @@ A custom WordPress theme built for **The York Dental Suite** as part of a Full S
    ```bash
    git clone https://github.com/robinucar/York-Dental-Theme.git
    ```
+
+## 🧶 Sass Setup
+
+I use Sass for styling with a modular structure.
+
+### Structure
+
+- `main.scss`: Main entry point
+- `_header.scss`: Partial for header styles
+
+### Compile Sass
+
+To compile manually:
+
+```
+npx sass assets/scss/main.scss assets/css/main.css
+```
 
 ✍️ Author
 Robin Winters

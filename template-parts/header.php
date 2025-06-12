@@ -20,12 +20,12 @@
         <a href="#contact" class="book-button">BOOK NOW</a>
         <div class="contact-info">
           <div>
-            <img src="<?= get_template_directory_uri(); ?>/assets/images/phone-icon.svg" alt="" class="contact-icon" aria-hidden="true" />
+            <img src="<?= get_template_directory_uri(); ?>/assets/icons/phone-icon.svg" alt="" class="contact-icon" aria-hidden="true" />
             <span class="icon-separator" role="presentation" aria-hidden="true"></span>
             <a href="tel:01904937041">01904 937 041</a>
           </div>
           <div>
-            <img src="<?= get_template_directory_uri(); ?>/assets/images/email-icon.svg" alt="" class="contact-icon" aria-hidden="true" />
+            <img src="<?= get_template_directory_uri(); ?>/assets/icons/email-icon.svg" alt="" class="contact-icon" aria-hidden="true" />
             <span class="icon-separator" role="presentation" aria-hidden="true"></span>
             <a href="mailto:info@theyorkdentalsuite.co.uk">info@theyorkdentalsuite.co.uk</a>
           </div>

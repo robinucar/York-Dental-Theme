@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+}
+
+.modal-form {
+  width: 700px;
+  max-width: 90vw;
+  background: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.25);
+  margin: 40px auto;
+}
+
+.form-parent {
+  position: relative;
+  height: 230px;
+  overflow: hidden;
+}
+
+.form-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.form-parent::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.35);
+}
+
+.form-parent h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  color: #fff;
+  font-size: 36px;
+  font-weight: 600;
+  text-align: center;
+  z-index: 1;
+}
+
+.close-btn {
+  position: absolute;
+  z-index: 2;
+  top: 15px;
+  right: 20px;
+  font-size: 30px;
+  border: none;
+  background: none;
+  color: #fff;
+  cursor: pointer;
+  line-height: 1;
+}
+
+.form {
+  padding: 60px 70px 40px;
+}
+
+.field {
+  width: 100%;
+  padding: 18px 22px;
+  margin-bottom: 24px;
+  border: 1px solid #dcdcdc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.submit-btn {
+  display: block;
+  width: 220px;
+  max-width: 100%;
+  margin: 10px auto 50px;
+  padding: 17px 0;
+  border: none;
+  border-radius: 24px;
+  background: linear-gradient(135deg, #c38d69 0%, #af7a56 100%);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  opacity: 0.9;
+}
+
+.disclaimer {
+  max-width: 560px;
+  margin: 0 auto 60px;
+  padding: 0 20px;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #4d4d4d;
+  text-align: center;
+}
+
+.disclaimer a {
+  color: #000;
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .modal-form {
+    width: 100%;
+    max-width: none;
+    margin: 0 auto;
+    border: none;
+    box-shadow: none;
+    padding: 10px;
+  }
+
+  .form-parent {
+    height: 180px;
+  }
+
+  .form-parent h2 {
+    font-size: 24px;
+    padding: 0 16px;
+  }
+
+  .close-btn {
+    top: 10px;
+    right: 15px;
+    font-size: 26px;
+  }
+
+  .form {
+    padding: 40px 20px 30px;
+  }
+
+  .field {
+    margin-bottom: 20px;
+    font-size: 15px;
+  }
+
+  .submit-btn {
+    width: 100%;
+    margin: 10px 0 40px;
+  }
+
+  .disclaimer {
+    margin-bottom: 40px;
+    font-size: 13px;
+  }
+}
